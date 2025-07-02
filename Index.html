@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blendz Studios</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">🎬 Blendz Studios</div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <nav id="nav-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content animate fade">
+        <h1>Crafting Cinematic Stories</h1>
+        <p>Multimedia magic for your brand</p>
+      </div>
+    </section>
+
+    <section id="about" class="glass-section animate slide">
+      <h2>About Us</h2>
+      <p>We blend visuals, sound, and creativity into cinematic experiences. From short films to brand stories, we deliver immersive media that captivates your audience.</p>
+      <img src="images/about.jpg" alt="About" class="animate zoom" />
+    </section>
+
+    <section id="services" class="glass-section animate fade">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card animate zoom">🎬 Video Editing</div>
+        <div class="card animate zoom">📸 Photography</div>
+        <div class="card animate zoom">📽️ Commercial Shoots</div>
+        <div class="card animate zoom">🎙️ Audio Production</div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="glass-section animate slide">
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <img src="images/portfolio1.jpg" alt="Project 1" class="animate fade" />
+        <img src="images/portfolio2.jpg" alt="Project 2" class="animate fade" />
+        <img src="images/portfolio3.jpg" alt="Project 3" class="animate fade" />
+      </div>
+    </section>
+
+    <section id="contact" class="glass-section animate slide">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p class="contact-info">
+        📧 <a href="mailto:info@blendzstudios.com">blendz.studioz@gmail.com</a><br />
+        📞 +94 70 143 1349
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Blendz Studios. All rights reserved.</p>
+  </footer>
+</body>
+</html>
